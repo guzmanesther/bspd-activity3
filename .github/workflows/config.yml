@@ -1,12 +1,11 @@
 name: flask workflow
 
+#triggers
 on:
-  push:
-        branches:
-            main
+    push:
+        branches: ["master","main"]
     pull_request:
-        branches:
-            main
+        branches: ["master","main"]
     workflow_dispatch:
 
 jobs:
